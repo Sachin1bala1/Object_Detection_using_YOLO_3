@@ -11,7 +11,7 @@ layer_names = net.getLayerNames()
 layer_names = [layer_names[i - 1] for i in net.getUnconnectedOutLayers()]
 
 # Load input image
-image = cv2.imread("test_image.png")
+image = cv2.imread("easy.jpg")
 (H, W) = image.shape[:2]
 
 # Create the blob with a size of (416, 416), swap red and blue channels, apply scale factor of 1/255
