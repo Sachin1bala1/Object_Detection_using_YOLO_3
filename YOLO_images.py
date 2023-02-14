@@ -82,3 +82,30 @@ plt.imshow(img_RGB)
 plt.title("YOLO V3 for object detection")
 plt.axis('off')
 plt.show()
+
+
+"""
+@misc{redmon2018yolov3,
+  abstract = {We present some updates to YOLO! We made a bunch of little design changes to
+make it better. We also trained this new network that's pretty swell. It's a
+little bigger than last time but more accurate. It's still fast though, don't
+worry. At 320x320 YOLOv3 runs in 22 ms at 28.2 mAP, as accurate as SSD but
+three times faster. When we look at the old .5 IOU mAP detection metric YOLOv3
+is quite good. It achieves 57.9 mAP@50 in 51 ms on a Titan X, compared to 57.5
+mAP@50 in 198 ms by RetinaNet, similar performance but 3.8x faster. As always,
+all the code is online at https://pjreddie.com/yolo/},
+  added-at = {2018-09-21T15:24:42.000+0200},
+  author = {Redmon, Joseph and Farhadi, Ali},
+  biburl = {https://www.bibsonomy.org/bibtex/2cd221fb00896b020dec735d19ff2d9bd/tgandor},
+  description = {YOLOv3: An Incremental Improvement},
+  interhash = {bbdec3df168e9809d9e61423d4b4e062},
+  intrahash = {cd221fb00896b020dec735d19ff2d9bd},
+  keywords = {cnn deep_learning object_detection yolo},
+  note = {cite arxiv:1804.02767Comment: Tech Report},
+  timestamp = {2018-09-21T15:24:42.000+0200},
+  title = {YOLOv3: An Incremental Improvement},
+  url = {http://arxiv.org/abs/1804.02767},
+  year = 2018
+}
+"""
+
